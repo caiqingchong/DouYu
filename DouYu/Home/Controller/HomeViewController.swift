@@ -11,8 +11,8 @@ private let kTitleViewH :CGFloat = 40
 
 class HomeViewController: UIViewController {
     
-//    let titles = ["推荐","手游","娱乐","游戏","趣玩"]
-    let titles = ["手游","娱乐","游戏","趣玩"]
+    let titles = ["推荐","手游","娱乐","游戏","趣玩"]
+//    let titles = ["手游","娱乐","游戏","趣玩"]
 
     fileprivate lazy var pageTitleView : PageTitleView = {[weak self] in
         let titleFrame = CGRect(x: 0, y: kStatusBarH+kNavBarH, width: kScreenW, height: kTitleViewH)
@@ -27,7 +27,7 @@ class HomeViewController: UIViewController {
         var childVcs = [UIViewController]()
         
         //这里抽离出来一个基类，让之后的类继承
-//        childVcs.append(RecommendVC())
+        childVcs.append(RecommendVC())
         childVcs.append(HandsVC())
         childVcs.append(AmuseVC())
         childVcs.append(GameVC())

@@ -1,10 +1,11 @@
 //
-//  BaseAnchorVC.swift
-//  1106-douyu
+//  FunnyVC.swift
+//  DouYu
 //
-//  Created by targetcloud on 2016/11/10.
-//  Copyright © 2016年 targetcloud. All rights reserved.
+//  Created by 张张凯 on 2018/4/26.
+//  Copyright © 2018年 zhangaki. All rights reserved.
 //
+
 
 import UIKit
 
@@ -98,6 +99,7 @@ extension BaseAnchorVC : UICollectionViewDataSource {
     
 }
 
+//处理操作代理，进入相应的页面。
 extension BaseAnchorVC : UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
 //        let anchor = baseVM.anchorGroups[indexPath.section].anchors[indexPath.item]

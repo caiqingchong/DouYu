@@ -68,12 +68,12 @@ extension RecommendCycleView{
 //这里要有具体的值，否则无法判断数据
 extension RecommendCycleView : UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return (cycleModels?.count ?? 0) * 10000
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CycleCellID, for: indexPath) as! CollectionCycleCell
-//        cell.cycleModel = cycleModels![indexPath.item % cycleModels!.count]
+        cell.cycleModel = cycleModels![indexPath.item % cycleModels!.count]
         return cell
     }
 }
