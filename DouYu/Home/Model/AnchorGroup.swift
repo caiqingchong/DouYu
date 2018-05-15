@@ -1,15 +1,16 @@
 //
-//  AnchorGroup.swift
-//  1106-douyu
+//  FunnyVC.swift
+//  DouYu
 //
-//  Created by targetcloud on 2016/11/9.
-//  Copyright © 2016年 targetcloud. All rights reserved.
+//  Created by 张张凯 on 2018/4/26.
+//  Copyright © 2018年 zhangaki. All rights reserved.
 //
+
 
 import UIKit
 
 class AnchorGroup: BaseModel {
-    lazy var anchors : [AnchorModel] = [AnchorModel]()
+    @objc lazy var anchors : [AnchorModel] = [AnchorModel]()
     @objc var icon_name : String = "home_header_normal"
    
     @objc var room_list : [[String : Any]]? {

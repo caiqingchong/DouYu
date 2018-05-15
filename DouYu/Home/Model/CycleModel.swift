@@ -1,18 +1,19 @@
 //
-//  CycleModel.swift
-//  1106-douyu
+//  FunnyVC.swift
+//  DouYu
 //
-//  Created by targetcloud on 2016/11/9.
-//  Copyright © 2016年 targetcloud. All rights reserved.
+//  Created by 张张凯 on 2018/4/26.
+//  Copyright © 2018年 zhangaki. All rights reserved.
 //
+
 
 import UIKit
 
 class CycleModel: NSObject {
-    var title : String = ""
-    var pic_url : String = ""
-    var anchor : AnchorModel?
-    var room :[String :Any]?{
+    @objc var title : String = ""
+    @objc var pic_url : String = ""
+    @objc var anchor : AnchorModel?
+    @objc var room :[String :Any]?{
         didSet{
             guard let room = room  else {
                 return
