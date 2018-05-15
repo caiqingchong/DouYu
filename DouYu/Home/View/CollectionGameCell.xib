@@ -60,8 +60,8 @@
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="93" height="86"/>
             <connections>
-                <outlet property="iconImageView" destination="8S9-Io-LFw" id="mSF-VK-NB1"/>
-                <outlet property="titleLabel" destination="Hke-3h-flh" id="dJx-BG-RuP"/>
+                <outlet property="iconImageView" destination="8S9-Io-LFw" id="Zzu-Uj-e8d"/>
+                <outlet property="titleLabel" destination="Hke-3h-flh" id="17j-pu-Az9"/>
             </connections>
             <point key="canvasLocation" x="-45.5" y="42"/>
         </collectionViewCell>

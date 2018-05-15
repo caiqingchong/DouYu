@@ -12,7 +12,7 @@ private let MenuCellID = "MenuCellID"
 
 class MenuView: UIView {
 
-    var groups : [AnchorGroup]? {
+   @objc var groups : [AnchorGroup]? {
         didSet {
             collectionView.reloadData()
         }

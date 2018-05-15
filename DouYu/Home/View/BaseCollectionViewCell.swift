@@ -15,7 +15,7 @@ class BaseCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var onlineBtn: UIButton!
     @IBOutlet weak var nickNameLabel: UILabel!
     
-    var anchor : AnchorModel? {
+   @objc var anchor : AnchorModel? {
         didSet {
             guard let anchor = anchor else { return }
 

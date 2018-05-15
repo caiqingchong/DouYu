@@ -15,7 +15,7 @@ class CollectionCycleCell: UICollectionViewCell {
     @IBOutlet weak var titleLabel: UILabel!
     
     //定义模型属性  在这里给属性添加相应的参数
-    var cycleModel : CycleModel? {
+    @objc var cycleModel : CycleModel? {
         didSet{
             titleLabel.text = cycleModel?.title
             //这里给一个判断，如果去不到URL，内容传空

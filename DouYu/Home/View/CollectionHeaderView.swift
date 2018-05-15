@@ -16,7 +16,7 @@ class CollectionHeaderView: UICollectionReusableView {
     @IBOutlet weak var arrowBtn: UIButton!
     
     // MARK:- 定义模型属性
-    var group : AnchorGroup? {
+    @objc var group : AnchorGroup? {
         didSet {//如果初始化的时候没有调用init初始化方法的话是不会调用disset方法的
             titleLabel.text = group?.tag_name
             iconImageView.image = UIImage(named: group?.icon_name ?? "home_header_normal")

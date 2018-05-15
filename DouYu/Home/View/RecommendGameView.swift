@@ -48,13 +48,13 @@ extension RecommendGameView {
 
 extension RecommendGameView : UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return groups?.count ?? 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: GameCellID, for: indexPath) as! CollectionGameCell
         //将数据添加到cell中
-//        cell.game = groups![indexPath.item]
+        cell.game = groups![indexPath.item]
         return cell
     }
 }
