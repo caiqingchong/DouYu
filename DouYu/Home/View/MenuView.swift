@@ -1,5 +1,5 @@
 //
-//  FunnyVC.swift
+//  MenuView.swift
 //  DouYu
 //
 //  Created by 张张凯 on 2018/4/26.
@@ -26,7 +26,6 @@ class MenuView: UIView {
         autoresizingMask = UIViewAutoresizing()
         //注册  MenuViewCell
         collectionView.register(UINib(nibName: "MenuViewCell", bundle: nil), forCellWithReuseIdentifier: MenuCellID)
-//        print(collectionView.bounds);//(0.0, 0.0, 375.0, 181.0) xib大小
     }
     
     override func layoutSubviews() {

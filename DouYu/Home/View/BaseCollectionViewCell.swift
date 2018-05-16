@@ -1,5 +1,5 @@
 //
-//  FunnyVC.swift
+//  BaseCollectionViewCell.swift
 //  DouYu
 //
 //  Created by 张张凯 on 2018/4/26.

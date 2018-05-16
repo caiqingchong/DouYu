@@ -15,11 +15,6 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="orE-J4-bFj">
-                    <rect key="frame" x="326" y="113" width="39" height="37"/>
-                    <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                    <color key="currentPageIndicatorTintColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                </pageControl>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ySz-rm-gvQ">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
                     <color key="backgroundColor" red="1" green="0.24609265851861339" blue="0.31509025633594334" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -34,22 +29,27 @@
                         <outlet property="delegate" destination="iN0-l3-epB" id="VO6-EV-W9c"/>
                     </connections>
                 </collectionView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="ZWM-5A-rZG">
+                    <rect key="frame" x="336" y="113" width="39" height="37"/>
+                    <color key="pageIndicatorTintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="currentPageIndicatorTintColor" red="1" green="0.88443224350820826" blue="0.26529408306029623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </pageControl>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="ySz-rm-gvQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8fY-y1-glv"/>
+                <constraint firstAttribute="trailing" secondItem="ZWM-5A-rZG" secondAttribute="trailing" id="KBd-53-PpY"/>
                 <constraint firstAttribute="bottom" secondItem="ySz-rm-gvQ" secondAttribute="bottom" id="SOH-bb-n1W"/>
-                <constraint firstAttribute="bottom" secondItem="orE-J4-bFj" secondAttribute="bottom" id="blZ-Fx-Zef"/>
+                <constraint firstAttribute="bottom" secondItem="ZWM-5A-rZG" secondAttribute="bottom" id="WLt-gt-1al"/>
                 <constraint firstItem="ySz-rm-gvQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="njb-us-Zab"/>
                 <constraint firstAttribute="trailing" secondItem="ySz-rm-gvQ" secondAttribute="trailing" id="tLr-SN-aTm"/>
-                <constraint firstAttribute="trailing" secondItem="orE-J4-bFj" secondAttribute="trailing" constant="10" id="xs0-ze-RS8"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="collectionView" destination="ySz-rm-gvQ" id="Eir-A9-Ywg"/>
-                <outlet property="pageControl" destination="orE-J4-bFj" id="X58-jL-cOs"/>
+                <outlet property="pageControl" destination="ZWM-5A-rZG" id="Rkz-yE-J9j"/>
             </connections>
-            <point key="canvasLocation" x="-380" y="-248"/>
+            <point key="canvasLocation" x="-380.5" y="-248"/>
         </view>
     </objects>
 </document>
