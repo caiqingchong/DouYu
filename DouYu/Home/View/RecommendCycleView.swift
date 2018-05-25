@@ -38,7 +38,7 @@ class RecommendCycleView: UIView {
         super.awakeFromNib()
         autoresizingMask = UIViewAutoresizing()
         
-        //重用cell
+        //注册cell
         collectionView.register(UINib(nibName: "CollectionCycleCell",bundle:nil), forCellWithReuseIdentifier: CycleCellID)
         
     }

@@ -30,7 +30,6 @@
 		8971567820916D8A008617BB /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8971567720916D8A008617BB /* UIBarButtonItem-Extension.swift */; };
 		89A3505C20A588E800BCE486 /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3505820A588E700BCE486 /* MenuView.xib */; };
 		89A3505D20A588E800BCE486 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A3505920A588E800BCE486 /* MenuView.swift */; };
-		89A3506120A58B6C00BCE486 /* MenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A3506020A58B6B00BCE486 /* MenuViewCell.swift */; };
 		89A3506320A58B9E00BCE486 /* MenuViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A3506220A58B9D00BCE486 /* MenuViewCell.xib */; };
 		89ADEB66209C2F120088DA4D /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ADEB65209C2F120088DA4D /* BaseVC.swift */; };
 		89ADEB68209C3DC40088DA4D /* BaseAnchorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ADEB67209C3DC40088DA4D /* BaseAnchorVC.swift */; };
@@ -66,7 +65,7 @@
 		89C0D6C620A1B34300208DA6 /* RecommendVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C0D6C520A1B34300208DA6 /* RecommendVM.swift */; };
 		89C0D6C920A1B81300208DA6 /* CollectionPrettyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C0D6C720A1B81300208DA6 /* CollectionPrettyCell.swift */; };
 		89C0D6CA20A1B81300208DA6 /* CollectionPrettyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C0D6C820A1B81300208DA6 /* CollectionPrettyCell.xib */; };
-		89CB94DF209074F40088189C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89CB94DE209074F40088189C /* Images.xcassets */; };
+		89CAF0C520B7A6FC009CBAB5 /* MenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CAF0C420B7A6FC009CBAB5 /* MenuViewCell.swift */; };
 		89CB94E120907A5F0088189C /* HttpTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CB94E020907A5F0088189C /* HttpTools.swift */; };
 		89CB94E3209082BD0088189C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CB94E2209082BD0088189C /* Common.swift */; };
 		89CDDDE0209AFC630009CD61 /* CollectionCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CDDDDE209AFC630009CD61 /* CollectionCycleCell.swift */; };
@@ -136,7 +135,6 @@
 		8971567720916D8A008617BB /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
 		89A3505820A588E700BCE486 /* MenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuView.xib; sourceTree = "<group>"; };
 		89A3505920A588E800BCE486 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
-		89A3506020A58B6B00BCE486 /* MenuViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewCell.swift; path = "../../../../DYZB-master/1106-douyu/1106-douyu/Classes/Home/View/MenuViewCell.swift"; sourceTree = "<group>"; };
 		89A3506220A58B9D00BCE486 /* MenuViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewCell.xib; sourceTree = "<group>"; };
 		89ADEB65209C2F120088DA4D /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		89ADEB67209C3DC40088DA4D /* BaseAnchorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAnchorVC.swift; sourceTree = "<group>"; };
@@ -183,7 +181,7 @@
 		89C0D6C520A1B34300208DA6 /* RecommendVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendVM.swift; sourceTree = "<group>"; };
 		89C0D6C720A1B81300208DA6 /* CollectionPrettyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionPrettyCell.swift; sourceTree = "<group>"; };
 		89C0D6C820A1B81300208DA6 /* CollectionPrettyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionPrettyCell.xib; sourceTree = "<group>"; };
-		89CB94DE209074F40088189C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		89CAF0C420B7A6FC009CBAB5 /* MenuViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewCell.swift; sourceTree = "<group>"; };
 		89CB94E020907A5F0088189C /* HttpTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpTools.swift; sourceTree = "<group>"; };
 		89CB94E2209082BD0088189C /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		89CDDDDE209AFC630009CD61 /* CollectionCycleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCycleCell.swift; sourceTree = "<group>"; };
@@ -281,7 +279,6 @@
 				3DDA8ED1208E1D3700E1CA29 /* Assets.xcassets */,
 				3DDA8ED3208E1D3700E1CA29 /* LaunchScreen.storyboard */,
 				3DDA8ED6208E1D3700E1CA29 /* Info.plist */,
-				89CB94DE209074F40088189C /* Images.xcassets */,
 				89C064D220A2988A006C6FB1 /* MJExtension */,
 				89F163D620931C9E00B1F81C /* SDCycleScrollView */,
 			);
@@ -382,7 +379,7 @@
 				89C0D6C820A1B81300208DA6 /* CollectionPrettyCell.xib */,
 				89A3505920A588E800BCE486 /* MenuView.swift */,
 				89A3505820A588E700BCE486 /* MenuView.xib */,
-				89A3506020A58B6B00BCE486 /* MenuViewCell.swift */,
+				89CAF0C420B7A6FC009CBAB5 /* MenuViewCell.swift */,
 				89A3506220A58B9D00BCE486 /* MenuViewCell.xib */,
 			);
 			path = View;
@@ -703,7 +700,6 @@
 				89C0D6CA20A1B81300208DA6 /* CollectionPrettyCell.xib in Resources */,
 				89A3506320A58B9E00BCE486 /* MenuViewCell.xib in Resources */,
 				3DDA8ED5208E1D3700E1CA29 /* LaunchScreen.storyboard in Resources */,
-				89CB94DF209074F40088189C /* Images.xcassets in Resources */,
 				89F163EC20931C9E00B1F81C /* README.md in Resources */,
 				89C0D6BB20A1A20300208DA6 /* RecommendGameView.xib in Resources */,
 				89C0D6B520A18A4500208DA6 /* CollectionHeaderView.xib in Resources */,
@@ -826,7 +822,6 @@
 				89F163CB2092B3E200B1F81C /* PageTitleView.swift in Sources */,
 				89ADEB68209C3DC40088DA4D /* BaseAnchorVC.swift in Sources */,
 				89ADEB6A209C61860088DA4D /* BaseVM.swift in Sources */,
-				89A3506120A58B6C00BCE486 /* MenuViewCell.swift in Sources */,
 				89C064F320A2988A006C6FB1 /* NSObject+MJKeyValue.m in Sources */,
 				8971567220916313008617BB /* GameVC.swift in Sources */,
 				3DDA8EFA208E1D6F00E1CA29 /* MainVC.swift in Sources */,
@@ -841,6 +836,7 @@
 				89F163ED20931C9E00B1F81C /* TAAbstractDotView.m in Sources */,
 				3DDA8ECB208E1D3700E1CA29 /* AppDelegate.swift in Sources */,
 				3DDA8EFD208E1DF800E1CA29 /* HomeViewController.swift in Sources */,
+				89CAF0C520B7A6FC009CBAB5 /* MenuViewCell.swift in Sources */,
 				3DDA8EFF208E1E0400E1CA29 /* LiveViewController.swift in Sources */,
 				89C064F220A2988A006C6FB1 /* NSObject+MJCoding.m in Sources */,
 				89F163F220931C9E00B1F81C /* SDCycleScrollView.m in Sources */,
